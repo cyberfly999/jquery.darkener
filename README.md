@@ -28,7 +28,7 @@ All option values are css values.
 - **colorStart**: Color to start with.
 - **colorEnd**: Color on the aligned side.
 - **opacity**: The overall opacity.
-- **mixBlendMode**: How it blends with the image. (=CSSs mix-blend-mode)
+- **mixBlendMode**: How it blends with the image. (=CSSs [mix-blend-mode](https://developer.mozilla.org/en-US/docs/Web/CSS/mix-blend-mode))
 
 "By the time of this writig, this last option, **mixBlendMode**, will be ignored by MSIE and Edge as expected. At least until they abandoned their own crappy work and made Edge a fork of Chrome."
 ### More than one darkener?
