@@ -3,7 +3,10 @@
   "version": "0.9.0",
   "description": "A jQuery Plugin to render a gradient overlay",
   "main": "jquery.darkener.js",
-  "repository": {},
+  "repository": {
+	"type" : "git",
+	"url" : "https://github.com/cyberfly999/jquery.darkener.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
