@@ -33,7 +33,7 @@ All option values are css values.
 "By the time of this writig, this last option, **mixBlendMode**, will be ignored by MSIE and Edge as expected. At least until they abandoned their own crappy work and made Edge a fork of Chrome."
 ### More than one darkener?
 Use chaining like this:
-```
+```js
 $(div).darkener({align:'top'}).darkener({align:'bottom'});
 ```
 
