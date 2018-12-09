@@ -1,0 +1,26 @@
+{
+  "name": "jquery.darkener",
+  "version": "0.9.0",
+  "description": "A jQuery Plugin to render a gradient overlay",
+  "main": "jquery.darkener.js",
+  "repository": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jquery",
+    "plugin"
+  ],
+  "author": "Vince Hehlen <vince.hehlen@gmail.com> (https://github.com/cyberfly999)",
+  "contributors": [
+	"Januar Designbüro GmbH <info@januar.ch> (https://januar.ch/)"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-uglify": "^4.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-stripcomments": "^0.7.2"
+  }
+}

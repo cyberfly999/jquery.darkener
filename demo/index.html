@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>darkener</title>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<script src="js/jquery.darkener.min.js"></script>
+	<style>
+		.image {
+			position: relative;
+			height: 0;
+			padding-bottom: 33%;
+			width: 50%;
+			float: left;
+			background-size: cover;
+			background-position: center center;
+			background-repeat: no-repeat;
+		}
+	</style>
+	<script>
+		$(document).ready(function () {
+			$('.image:nth-child(1)').darkener({
+				align: 'top',
+				colorEnd: '#ffff00',
+				mixBlendMode: 'difference'
+
+			});
+			$('.image:nth-child(2)')
+				.darkener({
+					align: 'left',
+					colorStart: 'red',
+					colorEnd: 'red',
+					opacity: '0.3',
+					mixBlendMode: 'color',
+					size: '70%'
+				})
+				.darkener({
+					align: 'right'
+				});
+			$('.image:nth-child(3)').darkener({
+				align: 'right'
+			});
+			$('.image:nth-child(4)').darkener({
+				align: 'bottom',
+				mixBlendMode: 'difference'
+			});
+			$('.image:nth-child(5)').darkener({
+				align: 'left',
+				colorEnd: 'green',
+				size: '60%',
+				mixBlendMode: 'color',
+				opacity: '0.5'
+			});
+			$('.image:nth-child(6)').darkener({
+				align: 'left',
+				colorEnd: 'green',
+				size: '60%',
+				mixBlendMode: 'hue',
+				opacity: '0.5'
+			}).darkener({
+				align: 'top',
+				colorStart: 'blue',
+				colorEnd: 'rgba(0,0,255,0.1)',
+				size: '70%',
+				mixBlendMode: 'color'
+			}).darkener({
+				align: 'bottom',
+				colorStart: 'red',
+				colorEnd: 'red',
+				size: '70%',
+				mixBlendMode: 'color'
+			});
+		});
+	</script>
+</head>
+<body>
+<div class="image" style="background-image: url(img/img1.jpg)"></div>
+<div class="image" style="background-image: url(img/img2.jpg)"></div>
+<div class="image" style="background-image: url(img/img3.jpg)"></div>
+<div class="image" style="background-image: url(img/img4.jpg)"></div>
+<div class="image" style="background-image: url(img/img1.jpg)"></div>
+<div class="image" style="background-image: url(img/img2.jpg)"></div>
+<div class="image" style="background-image: url(img/img3.jpg)"></div>
+<div class="image" style="background-image: url(img/img4.jpg)"></div>
+</body>
+</html>
