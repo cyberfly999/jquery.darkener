@@ -1,6 +1,6 @@
 /*!
  * jQuery Darkener Plugin v0.9.0
- * [github repo url] @TODO notforget
+ * https://github.com/cyberfly999/jquery.darkener
  *
  * Copyright 2018 by Vince Hehlen
  * Released under the MIT license
