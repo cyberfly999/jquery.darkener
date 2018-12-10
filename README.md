@@ -1,6 +1,8 @@
 ## jQuery.darkener Plugin
 jQuery Plugin to add a darkening gradient over a background image, to achieve better readabillity with enhanced contrast on superimposed text.
 
+But, you can do so much more with it ...
+
 ### Usage
 Use this on elements with the image set as background-image. Something like this:
 ```html
