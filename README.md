@@ -12,7 +12,7 @@ $('div').darkener();
 ```
 ### Options
 It takes an object, the defaults:
-```json
+```js
 {
 	align: 'top',
 	size: '50%',
