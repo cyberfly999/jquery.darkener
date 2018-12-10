@@ -1,6 +1,6 @@
 /*!
  * jQuery Darkener Plugin v0.9.0
- * [github repo url] @TODO notforget
+ * https://github.com/cyberfly999/jquery.darkener
  *
  * Copyright 2018 by Vince Hehlen
  * Released under the MIT license
@@ -28,8 +28,6 @@
 
 			var elem = $(this);
 			var css = {};
-
-			elem.css('overflow','hidden');
 
 			switch (settings.align) {
 				case 'top':
@@ -71,10 +69,11 @@
 			} else {
 				css.background = 'linear-gradient(to ' + settings.align + ', ' + settings.colorStart + ' 0%,' + settings.colorEnd + ' 100%)';
 			}
-
+			
 			css.mixBlendMode = settings.mixBlendMode;
 			css.opacity = settings.opacity;
 
+			elem.css('overflow','hidden');
 			elem.prepend($(template).css(css));
 
 		});

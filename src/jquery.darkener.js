@@ -29,8 +29,6 @@
 			var elem = $(this);
 			var css = {};
 
-			elem.css('overflow','hidden');
-
 			switch (settings.align) {
 				case 'top':
 				default:
@@ -75,6 +73,7 @@
 			css.mixBlendMode = settings.mixBlendMode;
 			css.opacity = settings.opacity;
 
+			elem.css('overflow','hidden');
 			elem.prepend($(template).css(css));
 
 		});
