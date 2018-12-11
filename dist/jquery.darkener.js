@@ -6,7 +6,6 @@
  * Released under the MIT license
  */
 
-
 (function ($) {
 
 	$.fn.darkener = function (options) {
@@ -69,7 +68,7 @@
 			} else {
 				css.background = 'linear-gradient(to ' + settings.align + ', ' + settings.colorStart + ' 0%,' + settings.colorEnd + ' 100%)';
 			}
-			
+
 			css.mixBlendMode = settings.mixBlendMode;
 			css.opacity = settings.opacity;
 

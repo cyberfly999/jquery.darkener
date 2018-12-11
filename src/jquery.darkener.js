@@ -6,7 +6,6 @@
  * Released under the MIT license
  */
 
-
 (function ($) {
 
 	$.fn.darkener = function (options) {
