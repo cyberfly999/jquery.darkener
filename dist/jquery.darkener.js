@@ -21,6 +21,11 @@
 
 		settings.alignPrecision = '-1px';
 
+		// make sure the area is competely covered if val = 100%
+		if (settings.size === '100%') {
+			settings.size = '102%';
+		}
+
 		var template = '<div class="darkener" style="position:absolute">';
 
 		return this.each(function () {
@@ -72,7 +77,7 @@
 			css.mixBlendMode = settings.mixBlendMode;
 			css.opacity = settings.opacity;
 
-			elem.css('overflow','hidden');
+			elem.css('overflow', 'hidden');
 			elem.prepend($(template).css(css));
 
 		});
