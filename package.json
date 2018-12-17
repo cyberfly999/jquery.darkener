@@ -1,6 +1,6 @@
 {
   "name": "jquery.darkener",
-  "version": "0.9.0",
+  "version": "1.0.0",
   "description": "A jQuery Plugin to render a gradient overlay",
   "main": "jquery.darkener.js",
   "repository": {

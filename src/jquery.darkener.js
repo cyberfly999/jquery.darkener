@@ -1,5 +1,5 @@
 /*!
- * jQuery Darkener Plugin v0.9.0
+ * jQuery Darkener Plugin v1.0.0
  * https://github.com/cyberfly999/jquery.darkener
  *
  * Copyright 2018 by Vince Hehlen
